@@ -1,0 +1,138 @@
+.section {
+  padding: 120px 60px;
+  border-top: 1px solid var(--border);
+}
+
+.inner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(233,69,96,0.12), transparent),
+    var(--surface);
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.eyebrow {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 1px solid rgba(233,69,96,0.25);
+  padding: 5px 14px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.sub {
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.7;
+  font-weight: 300;
+  max-width: 48ch;
+  margin-bottom: 40px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-bottom: 36px;
+  overflow: hidden;
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 14px 24px;
+}
+
+.infoLabel {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.68rem;
+  color: rgba(241,241,241,0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.infoValue {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.divider {
+  width: 1px;
+  height: 40px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 36px;
+  background: var(--accent);
+  color: #fff;
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: opacity 0.2s, transform 0.15s;
+}
+
+.btn:hover { opacity: 0.88; transform: translateY(-2px); }
+.btn:active { transform: scale(0.98); }
+
+.note {
+  font-size: 0.75rem;
+  color: rgba(241,241,241,0.2);
+  font-family: 'DM Sans', sans-serif;
+  max-width: 50ch;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .section { padding: 80px 24px; }
+  .content { padding: 40px 24px; }
+  .info { flex-wrap: wrap; }
+  .divider { display: none; }
+  .infoItem { padding: 12px 16px; }
+}
