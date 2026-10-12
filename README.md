@@ -1,4 +1,4 @@
-# doit — Gerenciador de Tarefas
+# doit — Landing Page
 
 Organize sua rotina, priorize o que importa e mantenha suas tarefas sob controle com o Doit.
 
