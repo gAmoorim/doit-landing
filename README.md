@@ -2,7 +2,7 @@
 
 Organize sua rotina, priorize o que importa e mantenha suas tarefas sob controle com o Doit.
 
-O Doit é um aplicativo desktop de gerenciamento de tarefas desenvolvido para oferecer uma experiência simples, intuitiva e visualmente limpa. Com interface em dark mode, filtros e organização por prioridade, o objetivo é facilitar o acompanhamento das atividades do dia a dia.
+O **DoIt** é um aplicativo de gerenciamento de tarefas no formato de aplicativo desktop instalável no Windows. O projeto nasceu como uma API web e evoluiu para uma aplicação Electron, unindo um backend Node.js/Express a um frontend React moderno, tudo empacotado em um único executável.
 
 ## ✨ Funcionalidades
 
@@ -12,6 +12,8 @@ O Doit é um aplicativo desktop de gerenciamento de tarefas desenvolvido para of
 - **Edição de tarefas:** crie e edite tarefas com feedback imediato.
 - **Gerenciamento de conta:** disponibiliza opções para edição das informações do usuário.
 - **Dark mode:** interface escura com foco em legibilidade e conforto visual.
+- **Modo Kanban** — alterne para uma visualização em quadro, com tarefas organizadas por status em colunas.
+- **Arrastar e soltar** — mova tarefas entre as colunas do Kanban de forma intuitiva, atualizando sua organização conforme o fluxo de trabalho.
 
 ## 🖥️ Landing Page
 

@@ -6,7 +6,7 @@ const slides = [
   {
     title: 'Visão geral',
     description: 'Todas as suas tarefas organizadas em um só lugar.',
-    image: '/preview/dashboard.png',
+    image: '/preview/geral.png',
   },
   {
     title: 'Filtros e organização',
@@ -14,9 +14,9 @@ const slides = [
     image: '/preview/filtros.png',
   },
   {
-    title: 'Prioridades',
-    description: 'Visualize o que merece sua atenção primeiro.',
-    image: '/preview/prioridades.png',
+    title: 'Organização visual com Kanban',
+    description: 'Organize suas tarefas em colunas e mova os cartões com arrasta e solta.',
+    image: '/preview/kanban.png',
   },
   {
     title: 'Criação de tarefas',
@@ -136,6 +136,7 @@ export default function Preview() {
             <li>Ordenação automática por prioridade</li>
             <li>Edição inline com feedback imediato</li>
             <li>Conta de usuário editável</li>
+            <li>Modo Kanban com Arrasta e solta</li>
           </ul>
 
           {DEMO_VIDEO && (
